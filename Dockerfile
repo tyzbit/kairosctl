@@ -1,5 +1,5 @@
 FROM alpine:3
-ENV VERSION=v3.2.0
+ENV VERSION=v2.7.4
 
 ADD https://github.com/kairos-io/provider-kairos/releases/download/${VERSION}/kairosctl-${VERSION}-linux-amd64.tar.gz /tmp/kairosctl.tar.gz
 RUN tar -xvzf /tmp/kairosctl.tar.gz -C /tmp/ && \
